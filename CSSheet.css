@@ -1,7 +1,7 @@
-
+/* CSS GENERAL PAGE*/
 
 body {
-  background-color: pink;
+  background-color: lightgreen;
 }
 
 h1 {
@@ -13,14 +13,20 @@ h1 {
   color: darkblue;
 }
 
-.boottitles {
-  background-color: yellow;
+.titles {
+  color: darkgreen;
+  text-align: center;
+  font-style: oblique;
 }
 
 table {
   border-color: blue;
   border-style: groove;
+  text-align: center;
+}
 
+td {
+  padding: 15px;
 }
 
 /* Screen checker to see if it is not on a widescreen device*/
@@ -28,5 +34,9 @@ table {
 body {
   background-color: green;
   font-style: italic;
+
+}
+.titles{
+  color: lightgreen
 }
 }
