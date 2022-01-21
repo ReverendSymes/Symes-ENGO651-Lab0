@@ -1,3 +1,5 @@
-body {
-  background-color:orange;
+$bckgrd: orange
+
+.body {
+  background-color:bckgrd;
 }
