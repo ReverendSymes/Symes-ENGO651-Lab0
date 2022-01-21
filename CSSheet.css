@@ -23,6 +23,7 @@ table {
   border-color: blue;
   border-style: groove;
   text-align: center;
+
 }
 
 td {
@@ -34,9 +35,11 @@ td {
 body {
   background-color: green;
   font-style: italic;
-
+  color: white;
 }
+
 .titles{
   color: lightgreen
 }
+
 }
