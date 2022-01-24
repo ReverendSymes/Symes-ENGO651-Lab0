@@ -1,5 +1,21 @@
-$bckgrd: orange
+$txtcolor: white;
+
+%inherentence {
+  text-align: center;
+  background-color: linear-gradient(to right, red,black);
+
+}
+
+body {
+  @extend %inherentence;
+}
 
 li {
-  color:bckgrd;
+  @extend %inherentence;
+  color:txtcolor;
+
+  ravens {
+    color: purple;
+    background-color: white;
+  }
 }

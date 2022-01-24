@@ -1,0 +1,14 @@
+li, body {
+  text-align: center;
+  background-color: linear-gradient(to right, red, black);
+}
+
+li {
+  color: txtcolor;
+}
+li ravens {
+  color: purple;
+  background-color: white;
+}
+
+/*# sourceMappingURL=SCSSheet.css.map */
