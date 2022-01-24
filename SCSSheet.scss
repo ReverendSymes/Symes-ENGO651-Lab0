@@ -4,19 +4,21 @@ $bckcolor: black;
 %inherentence {
   text-align: center;
   background-color: $bckcolor;
-
+  color: $txtcolor;
 }
 
 body {
   @extend %inherentence;
+  background-color: black;
 }
 
 li {
   @extend %inherentence;
-  color: $txtcolor;
 
   ravens {
     color: purple;
     background-color: $txtcolor;
+    font-weight: bolder;
+    padding: 3px;
   }
 }

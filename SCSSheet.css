@@ -1,14 +1,18 @@
 li, body {
   text-align: center;
   background-color: black;
-}
-
-li {
   color: white;
 }
+
+body {
+  background-color: black;
+}
+
 li ravens {
   color: purple;
   background-color: white;
+  font-weight: bolder;
+  padding: 3px;
 }
 
 /*# sourceMappingURL=SCSSheet.css.map */
