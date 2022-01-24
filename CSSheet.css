@@ -1,6 +1,14 @@
 /* CSS GENERAL PAGE*/
 /* Andrew Symes */
 
+topbit {
+  background-color: darkblue;
+  color: white;
+  padding: 5%;
+  text-align: center;
+  align-items: center;
+}
+
 body {
   background-color: lightgreen;
 }
