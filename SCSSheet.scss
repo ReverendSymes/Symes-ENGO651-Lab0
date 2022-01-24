@@ -1,5 +1,5 @@
-$txtcolor: white;
-$bckcolor: black;
+$txtcolor: navy;
+$bckcolor: lavender;
 
 %inherentence {
   text-align: center;
@@ -9,7 +9,7 @@ $bckcolor: black;
 
 body {
   @extend %inherentence;
-  background-color: black;
+  background-color: $bckcolor;
 }
 
 li {
@@ -17,7 +17,7 @@ li {
 
   ravens {
     color: purple;
-    background-color: $txtcolor;
+    /*background-color: white; */
     font-weight: bolder;
     padding: 3px;
   }

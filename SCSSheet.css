@@ -1,16 +1,16 @@
 li, body {
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: lavender;
+  color: navy;
 }
 
 body {
-  background-color: black;
+  background-color: lavender;
 }
 
 li ravens {
   color: purple;
-  background-color: white;
+  /*background-color: white; */
   font-weight: bolder;
   padding: 3px;
 }
